@@ -1,0 +1,70 @@
+/* Common */
+
+	.post { 
+		width: 90%; 
+	}
+
+
+/**
+ * MQuery >= 710px
+ */
+
+@media screen and (min-width: 44.375em) {
+	
+	#content {
+		width: 44.375em;
+		margin: 0 auto;
+	}
+
+}
+
+/**
+ * MQuery - >= 783px
+ */
+
+@media screen and (min-width: 48.9375em) {
+	
+	#content {
+		width: 48.9375em;
+		margin: 0 auto;
+	}
+	
+	.home .post {
+		width: 24.15em;
+	}
+	
+}
+
+/**
+ * MQuery - >= 910px
+ */
+
+@media screen and (min-width: 56.875em) {
+	
+	#content {
+		width: 56.875em;
+		margin: 0 auto;
+	}
+	
+	.home .post {
+		width: 18.55em;
+	}
+
+
+}
+
+/**
+ * MQuery - >= 985px
+ */
+
+@media screen and (min-width: 61.5625em) {
+}
+
+
+/**
+ * MQuery - >= 1200px
+ */
+
+@media screen and (min-width: 75em) {
+}
+
